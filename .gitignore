@@ -1,0 +1,8 @@
+.terraform/
+modules/
+credentials.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+terraform_aws_infra_plan
+terraform_aws_instance_plan
+out.txt
