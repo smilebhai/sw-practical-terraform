@@ -8,6 +8,7 @@ Utilize Terraform, an “infrastructure as code” tool similar to to create Ama
 
 ## Create an AWS infrastructure
 
+```sh
 Initialize a working directory containing Terraform configuration files
 $ terraform init
 
@@ -19,11 +20,13 @@ $ terraform apply "terraform_aws_infra_plan"
 
 Destroy the Terraform-managed infrastructure
 $ terraform destroy
+```
 
 ## Create an AWS EC2 Instance
 
-* Specify an existing aws-ami in your account under "values" in resources.tf or filter to select ami from Marketplace
+Specify an existing aws-ami in your account under "values" in resources.tf or filter to select ami from Marketplace
 
+```sh
 Initialize a working directory containing Terraform configuration files
 $ terraform init
 
@@ -35,6 +38,7 @@ $ terraform apply "terraform_aws_instance_plan"
 
 Destroy the Terraform-managed instance
 $ terraform destroy
+```
 
 ## Resources
 
