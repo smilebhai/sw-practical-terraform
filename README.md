@@ -43,4 +43,4 @@ $ terraform destroy
 ## Resources
 
 * [Terraform CLI](https://www.terraform.io/docs/commands/destroy.html)
-* [AWS Provider)](https://www.terraform.io/docs/providers/aws)
+* [AWS Provider](https://www.terraform.io/docs/providers/aws)
